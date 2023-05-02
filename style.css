@@ -34,6 +34,9 @@ h6 {
   font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
   text-transform: lowercase;
 }
+h2 {
+  color: #645CAA;
+}
 h3 {
   font-size: 20px;
   color: black;
@@ -46,6 +49,18 @@ p {
   text-align: center;
   color: black;
   text-transform: none;
+}
+.big {
+  display: inline-block;
+  font-size: 32px;
+  color: #645CAA;
+  margin: 5%;
+  margin-bottom: 10%;
+}
+
+.small {
+  font-size: 16px;
+  color: black;
 }
 i {
   font-size: 16px;
@@ -195,7 +210,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url("https://images.unsplash.com/photo-1569982175971-d92b01cf8694?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fGdyYWRpZW50JTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+  background-image: url("https://images.unsplash.com/photo-1569940532213-33adf38784c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NDZ8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
   color: white;
 }
 header .header-content {
