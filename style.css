@@ -73,14 +73,17 @@ i {
   width: 25%;
   max-width: 400px;
   height: auto;
-  max-width: 400px;
+  min-width: 150px;
+}
+img {
+  max-inline-size: 100%;
+  block-size: auto;
 }
 img.logo {
   height: 30px;
   width: 30px;
-  margin-top: 10%;
   margin-right: 10px;
-  float: left;
+  display: inline-block;
 }
 img.feature {
   height: 100px;
@@ -127,6 +130,7 @@ aside {
   font-family: 'DM Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
   text-transform: lowercase;
+  text-align: center;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -170,7 +174,6 @@ aside {
   .navbar-default .navbar-header .navbar-brand:focus {
     color: #645CAA;
   }
-  
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
     color: black;
@@ -208,7 +211,7 @@ aside {
 header {
   position: relative;
   width: 100%;
-  min-height: auto;
+  height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -222,6 +225,7 @@ header .header-content {
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
+  min-height: 605px;
 }
 header .header-content-inner {
   position: absolute;
