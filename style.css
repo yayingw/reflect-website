@@ -70,8 +70,10 @@ i {
   color: black;
 }
 .responsive {
-  width: 100%;
+  width: 25%;
+  max-width: 400px;
   height: auto;
+  max-width: 400px;
 }
 img.logo {
   height: 30px;
@@ -197,6 +199,11 @@ aside {
   .navbar-default.affix .nav > li > a:focus:hover {
     color: #fbc5de;
   }
+  header .header-content img {
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 40%;
+  }
 }
 header {
   position: relative;
@@ -220,13 +227,6 @@ header .header-content-inner {
   position: absolute;
   top: 50%;
   float: left;
-}
-header .header-content img {
-  position: absolute;
-  top: -126px;
-  width: 549px;
-  height: 476px;
-  left: 746px;
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
